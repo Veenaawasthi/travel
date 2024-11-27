@@ -1,0 +1,85 @@
+/* Tourform.css */
+
+.form {
+  max-width: 90%;
+  width: 75vw;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #3366cc;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #131312;
+  font-size: 28px;
+  text-wrap: balance;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="number"] {
+  -moz-appearance: textfield; /* Remove spinner in Firefox */
+  appearance: textfield; /* Standard property for compatibility */
+}
+.form-group input[type="number"]::-webkit-outer-spin-button,
+.form-group input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.div-pax {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-pax label,
+.div-pax input {
+  width: 20%;
+}
+
+.submit,
+.reset {
+  margin-left: 4px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.reset {
+  background-color: #f44336;
+  color: white;
+}
+
+.submit:hover,
+.reset:hover {
+  opacity: 0.9;
+}

@@ -1,0 +1,130 @@
+.formViewContainar {
+  padding: 20px;
+  background: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  border: 1px solid #f0c6c6;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #5979e0;
+  }
+  
+  .logo {
+    max-width: 200px;
+    padding-top: 2%;
+  }
+  
+  .info-table, .services-table, .hotels-table, .quotation-table, .tour-condition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .info-table td, .services-table th, .services-table td, .hotels-table th, .hotels-table td, .quotation-table th, .quotation-table td, .tour-condition-table td {
+    border: 1px solid #151414;
+    padding: 8px;
+    text-align: left;
+    font-size: xx-small;
+  }
+  
+  .info-table th, .services-table th, .hotels-table th, .quotation-table th {
+    background-color: #10afe4;
+    color: #000;
+  }
+  
+  .services-table th, .services-table td {
+    text-align: center;
+    font-size: small;
+  }
+  
+  .header h1, .header h2 {
+    margin: 0;
+  }
+  
+  .tour-condition-table td {
+    border: 1px solid #000;
+    padding: 1px;
+    text-align: left;
+    font-size: x-small;
+  }
+  .conditions{
+    margin: 20px;
+    text-align: left;
+  }
+  
+  h3 {
+    background-color: #5979e0;
+    padding: 5px;
+  }
+  
+  p {
+    border: 1px solid #590ee4;
+    padding: 3px;
+    background-color: #f9f9f9;
+    margin: 0px;
+    font-size: small;
+  }
+  
+  /* Ensure Font Awesome icons are displayed properly */
+.fas {
+  color: #151416; /* Set color to black or any desired color */
+  font-size: 1.0rem; /* Adjust size if needed */
+  opacity: 0.5; /* Ensure opacity is set to 1 */
+}
+
+/* Ensure tables are compact */
+/* Basic table styling */
+/* Basic table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border-color: #000; /* Ensures borders are merged between cells */
+}
+
+/* Border for table headers and cells */
+.table th, .table td {
+  border: 1px solid #181717; /* Border color and style */
+  padding: 0.5rem; /* Adjust padding as needed */
+  text-align: left; /* Align text to the left */
+  font-size: small;
+}
+
+/* Header styling */
+.table th {
+  border: 2px solid #de1313; /* Dark color for borders */
+  padding: 8px; /* Adjust padding as needed */
+  text-align: left ;/* Bold text for headers */
+  border-color: #000;
+}
+.table thead th {
+  background-color: #5bd1eb; /* Dark background color for table headers */
+  color: #f60d0d; /* Text color for table headers */
+  border-color: #000;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Optional: Alternate row color for readability */
+  border-color: #000;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #fff; /* Optional: Alternate row color for readability */
+  border-color: #000;
+}
+
+/* Optional: Add a background color for header cells */
+.table th {
+  background-color: #f30e0e; /* Light gray background for header cells */
+  color: #333; /* Darker text color */
+  border-color: #000
+  
+}
+
+
+

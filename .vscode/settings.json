@@ -1,0 +1,6 @@
+{
+    "liveServer.settings.port": 5501,
+    "pieces.code-lens": false,
+    "editor.acceptSuggestionOnEnter": "on",
+    "pieces.autocomplete": true
+}
