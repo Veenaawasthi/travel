@@ -221,7 +221,7 @@ export const FormView = ({ itineraryData = {} }) => {
                 </td>
                 <td>
                   <i className={getIconClass("Time")}></i>{" "}
-                  {t(service.time) || t("N/A")}
+                  {(service.time) || ("N/A")}
                 </td>
                 <td>
                   <i className={getIconClass("Service")}></i>{" "}
